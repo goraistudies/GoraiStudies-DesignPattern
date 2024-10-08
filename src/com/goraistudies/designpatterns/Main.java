@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LazyInitialization obj1 = LazyInitialization.getInstance();
+        StaticBlock obj1 = StaticBlock.getInstance();
         System.out.println(obj1.hashCode());
 
-        LazyInitialization obj2 = LazyInitialization.getInstance();
+        StaticBlock obj2 = StaticBlock.getInstance();
         System.out.println(obj2.hashCode());
 
     }
